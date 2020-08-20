@@ -11,8 +11,8 @@
         "instructions"
     ],
     "support": {
-        "docs": "",
-        "issues": ""
+        "docs": "https://github.com/vaersaagod/instructions/blob/master/README.md",
+        "issues": "https://github.com/vaersaagod/instructions/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,8 +34,8 @@
         "handle": "instructions",
         "developer": "Værsågod AS",
         "developerUrl": "https://vaersaagod.no",
-        "documentationUrl": "",
-        "changelogUrl": "",
+        "documentationUrl": "https://github.com/vaersaagod/instructions/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/vaersaagod/instructions/master/CHANGELOG.md",
         "class": "vaersaagod\\instructions\\Instructions"
     }
 }
