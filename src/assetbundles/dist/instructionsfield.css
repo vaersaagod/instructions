@@ -1,0 +1,4 @@
+.field[data-type$="\\fields\\Instructions"] .heading,
+.field[data-type$="\\fields\\Instructions"] .instructions {
+    display: none;
+}
