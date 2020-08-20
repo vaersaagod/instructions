@@ -2,11 +2,11 @@
 
 Adds an _Instructions_ field type that can be used to render field instructions as native UI elements inside Matrix field layouts.
 
-![Screenshot](resources/img/plugin-logo.png)
+![Screenshot](resources/img/instructions.png)
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.5.5 or later.
 
 ## Installation
 
@@ -18,26 +18,18 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require /instructions
+        composer require vaersaagod/instructions
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Instructions.
 
-## Instructions Overview
+## Price, license and support
 
--Insert text here-
+The plugin is released under the MIT license. It's made for Værsågod and friends, and no support 
+is given. Submitted issues are resolved if it scratches an itch. 
 
-## Configuring Instructions
+## Changelog
 
--Insert text here-
+See [CHANGELOG.MD](https://raw.githubusercontent.com/vaersaagod/instructions/master/CHANGELOG.md).
 
-## Using Instructions
-
--Insert text here-
-
-## Instructions Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
 
 Brought to you by [Værsågod AS](https://vaersaagod.no)
