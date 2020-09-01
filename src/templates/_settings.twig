@@ -1,0 +1,12 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.selectField({
+    label: 'Style'|t('site'),
+    id: 'style',
+    name: 'style',
+    options: [
+        {label: 'Tip'|t('app'), value: 'tip'},
+        {label: 'Warning'|t('app'), value: 'warning'},
+    ],
+    value: field.style|default('tip'),
+}) }}

@@ -46,7 +46,7 @@ class Instructions extends Field
      */
     public function getSettingsHtml()
     {
-        return Craft::$app->getView()->renderTemplate('dsd/_components/fieldtypes/Instructions/settings',
+        return Craft::$app->getView()->renderTemplate('instructions/_settings',
             [
                 'field' => $this
             ]);
