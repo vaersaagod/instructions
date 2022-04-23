@@ -1,4 +1,4 @@
-# Instructions plugin for Craft CMS 3.x
+# Instructions plugin for Craft CMS
 
 Adds an _Instructions_ field type that can be used to render field instructions as native UI elements inside Matrix field layouts.
 

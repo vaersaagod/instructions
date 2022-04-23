@@ -44,7 +44,7 @@ class Instructions extends Field
     /**
      * @inheritdoc
      */
-    public function getSettingsHtml()
+    public function getSettingsHtml(): ?string
     {
         return Craft::$app->getView()->renderTemplate('instructions/_settings',
             [

@@ -1,6 +1,6 @@
 <?php
 /**
- * Instructions plugin for Craft CMS 3.x
+ * Instructions plugin for Craft CMS
  *
  * Adds an _Instructions_ field type that can be used to render field instructions as native UI elements inside Matrix field layouts.
  *
@@ -16,8 +16,6 @@ use Craft;
 use craft\base\Plugin;
 use craft\events\RegisterComponentTypesEvent;
 use craft\services\Fields;
-use craft\services\Plugins;
-use craft\events\PluginEvent;
 
 use yii\base\Event;
 
@@ -31,51 +29,13 @@ use yii\base\Event;
  */
 class Instructions extends Plugin
 {
-    // Static Properties
-    // =========================================================================
-
-    /**
-     * @var Instructions
-     */
-    public static $plugin;
-
-    // Public Properties
-    // =========================================================================
-
-    /**
-     * @var string
-     */
-    public $schemaVersion = '1.0.0';
-
-    /**
-     * @var bool
-     */
-    public $hasCpSettings = false;
-
-    /**
-     * @var bool
-     */
-    public $hasCpSection = false;
-
-    // Public Methods
-    // =========================================================================
 
     /**
      * @inheritdoc
      */
-    public function init()
+    public function init(): void
     {
         parent::init();
-        self::$plugin = $this;
-
-        Event::on(
-            Plugins::class,
-            Plugins::EVENT_AFTER_INSTALL_PLUGIN,
-            function (PluginEvent $event) {
-                if ($event->plugin === $this) {
-                }
-            }
-        );
 
         Event::on(
             Fields::class,
@@ -94,8 +54,5 @@ class Instructions extends Plugin
             __METHOD__
         );
     }
-
-    // Protected Methods
-    // =========================================================================
 
 }

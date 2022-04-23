@@ -4,6 +4,7 @@ namespace vaersaagod\instructions\migrations;
 
 use Craft;
 use craft\db\Migration;
+
 use vaersaagod\instructions\fields\Instructions;
 
 /**
@@ -15,7 +16,7 @@ class Install extends Migration
     /**
      * @inheritdoc
      */
-    public function safeUp()
+    public function safeUp(): bool
     {
         echo "> Migrating CP Field Instructions field type to Instructions...\n";
 
