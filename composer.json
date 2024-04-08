@@ -2,7 +2,7 @@
     "name": "vaersaagod/instructions",
     "description": "Adds an \"Instructions\" field type that can be used to render field instructions as native UI elements inside Matrix field layouts.",
     "type": "craft-plugin",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "keywords": [
         "craft",
         "cms",
